@@ -8,7 +8,7 @@ export default {
 
 <template>
   <div class="wrapper" id="welcome">
-    <img src="/le-maniglie-website/img/maniglia-welcome.jpg" alt="" />
+    <img src="le-maniglie-website/img/maniglia-welcome.jpg" alt="" />
     <div class="container">
       <h1>Le Maniglie</h1>
       <h2>di Tartaglia Stefano</h2>
