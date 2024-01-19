@@ -3,40 +3,52 @@ export default {
   data() {
     return {
       sliderList: [
-        { name: "1", url: "le-maniglie-website/img/slider/1.png" },
-        { name: "2", url: "le-maniglie-website/img/slider/2.png" },
-        { name: "3", url: "le-maniglie-website/img/slider/3.png" },
-        { name: "4", url: "le-maniglie-website/img/slider/4.png" },
+        {
+          name: "1",
+          url: "/le-maniglie-website/img/slider/1.png",
+        },
+        {
+          name: "2",
+          url: "/le-maniglie-website/img/slider/2.png",
+        },
+        {
+          name: "3",
+          url: "/le-maniglie-website/img/slider/3.png",
+        },
+        {
+          name: "4",
+          url: "/le-maniglie-website/img/slider/4.png",
+        },
       ],
       activeSlide: 0,
       catalogueList: [
         {
           name: "Antique Iron",
-          pdfUrl: "le-maniglie-website/pdf/antique-iron.pdf",
+          pdfUrl: "/le-maniglie-website/pdf/antique-iron.pdf",
         },
         {
           name: "Arredo Giardino",
-          pdfUrl: "le-maniglie-website/pdf/arredo-giardino.pdf",
+          pdfUrl: "/le-maniglie-website/pdf/arredo-giardino.pdf",
         },
         {
           name: "Arte e Design",
-          pdfUrl: "le-maniglie-website/pdf/arte-design.pdf",
+          pdfUrl: "/le-maniglie-website/pdf/arte-design.pdf",
         },
         {
           name: "Catalogo Generale",
-          pdfUrl: "le-maniglie-website/pdf/catalogo-generale.pdf",
+          pdfUrl: "/le-maniglie-website/pdf/catalogo-generale.pdf",
         },
         {
           name: "Cucine e Dintorni",
-          pdfUrl: "le-maniglie-website/pdf/catalogo-cucine.pdf",
+          pdfUrl: "/le-maniglie-website/pdf/catalogo-cucine.pdf",
         },
         {
           name: "Design e Colore",
-          pdfUrl: "le-maniglie-website/pdf/design-colore.pdf",
+          pdfUrl: "/le-maniglie-website/pdf/design-colore.pdf",
         },
         {
           name: "L'Officina dello Stile",
-          pdfUrl: "le-maniglie-website/pdf/officina-dello-stile.pdf",
+          pdfUrl: "/le-maniglie-website/pdf/officina-dello-stile.pdf",
         },
       ],
     };
