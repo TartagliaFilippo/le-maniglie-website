@@ -46,7 +46,8 @@ export default {
     top: 40%;
     color: $text-welcome;
     @media screen and (max-width: 1000px) {
-      padding-right: 2rem;
+      text-align: center;
+      padding: 0 1rem;
     }
     h1 {
       font-size: 3rem;
