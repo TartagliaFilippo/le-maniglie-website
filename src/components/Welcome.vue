@@ -25,7 +25,7 @@ export default {
 @use "../assets/scss/variables.scss" as *;
 @import "../assets/scss/mixins.scss";
 .wrapper {
-  min-height: 100vh;
+  min-height: 100svh;
   height: 100%;
   width: 100%;
   position: relative;

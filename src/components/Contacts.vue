@@ -1,5 +1,5 @@
 <script>
-const WEB3FORMS_ACCESS_KEY = "ef56bc67-f4ef-4fdc-b8b8-9041d9b01fd7";
+const WEB3FORMS_ACCESS_KEY = "4e24d515-51a3-4ca9-a662-b01ac188e6ef";
 
 export default {
   data() {

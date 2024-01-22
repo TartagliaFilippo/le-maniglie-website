@@ -53,7 +53,11 @@ export default {
       <div class="dropdown-button" @click="toggleDropdown">
         <font-awesome-icon :icon="['fas', 'bars']" />
       </div>
-      <div class="dropdown-menu" v-if="isDropdownOpen">
+      <div
+        class="dropdown-menu"
+        :style="{ backgroundColor: navbarColor }"
+        v-if="isDropdownOpen"
+      >
         <a href="#home">Home</a>
         <a href="#products">Cataloghi</a>
         <a href="#contacts">Contattaci</a>
