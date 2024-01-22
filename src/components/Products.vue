@@ -5,19 +5,19 @@ export default {
       sliderList: [
         {
           name: "1",
-          url: "/le-maniglie-website/img/slider/1.png",
+          url: "/le-maniglie-website/img/slider/1.jpg",
         },
         {
           name: "2",
-          url: "/le-maniglie-website/img/slider/2.png",
+          url: "/le-maniglie-website/img/slider/2.jpg",
         },
         {
           name: "3",
-          url: "/le-maniglie-website/img/slider/3.png",
+          url: "/le-maniglie-website/img/slider/3.jpg",
         },
         {
           name: "4",
-          url: "/le-maniglie-website/img/slider/4.png",
+          url: "/le-maniglie-website/img/slider/4.jpg",
         },
       ],
       activeSlide: 0,
@@ -53,6 +53,9 @@ export default {
       ],
     };
   },
+  created() {
+    this.autoSlide();
+  },
 
   methods: {
     // slide Precedente
@@ -76,6 +79,12 @@ export default {
     // allinea activeSlide all'index
     selectDot(index) {
       this.activeSlide = index;
+    },
+
+    autoSlide() {
+      this.autoSlideInterval = setInterval(() => {
+        this.goNext();
+      }, 3000);
     },
   },
 
@@ -114,14 +123,14 @@ export default {
       <div class="right-preview">
         <img :src="sliderList[nextIndex].url" alt="" />
       </div>
-      <div class="controls">
+      <!--<div class="controls">
         <div class="prev-button" @click="goPrev">
           <font-awesome-icon :icon="['fas', 'angles-left']" />
         </div>
         <div class="next-button" @click="goNext">
           <font-awesome-icon :icon="['fas', 'angles-right']" />
         </div>
-      </div>
+      </div>-->
     </div>
     <div class="dots-container">
       <div
