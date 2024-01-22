@@ -32,14 +32,12 @@ export default {
   img {
     position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     z-index: -1;
-    max-width: 100%;
     @include flexCenter(center);
-
-    @media screen and (max-width: 1442px) {
-      max-width: none;
-      height: 100%;
-    }
   }
   .container {
     display: inline-block;
