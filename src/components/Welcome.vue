@@ -29,6 +29,8 @@ export default {
   height: 100%;
   width: 100%;
   position: relative;
+  @include flexCenter(center);
+
   img {
     position: fixed;
     top: 0;
@@ -42,8 +44,6 @@ export default {
   .container {
     display: inline-block;
     position: absolute;
-    left: 20%;
-    top: 40%;
     color: $text-welcome;
     @media screen and (max-width: 1000px) {
       text-align: center;
