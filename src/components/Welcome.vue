@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      pathImg: "/img/img-welcome/maniglia-welcome.jpg",
+      pathImg: "/public/img/img-welcome/maniglia-welcome.jpg",
     };
   },
 };

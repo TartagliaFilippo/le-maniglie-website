@@ -5,50 +5,50 @@ export default {
       sliderList: [
         {
           name: "1",
-          url: "/img/slider/1.jpg",
+          url: "/public/img/slider/1.jpg",
         },
         {
           name: "2",
-          url: "/img/slider/2.jpg",
+          url: "/public/img/slider/2.jpg",
         },
         {
           name: "3",
-          url: "/img/slider/3.jpg",
+          url: "/public/img/slider/3.jpg",
         },
         {
           name: "4",
-          url: "/img/slider/4.jpg",
+          url: "/public/img/slider/4.jpg",
         },
       ],
       activeSlide: 0,
       catalogueList: [
         {
           name: "Antique Iron",
-          pdfUrl: "/pdf/antique-iron.pdf",
+          pdfUrl: "/public/pdf/antique-iron.pdf",
         },
         {
           name: "Arredo Giardino",
-          pdfUrl: "/pdf/arredo-giardino.pdf",
+          pdfUrl: "/public/pdf/arredo-giardino.pdf",
         },
         {
           name: "Arte e Design",
-          pdfUrl: "/pdf/arte-design.pdf",
+          pdfUrl: "/public/pdf/arte-design.pdf",
         },
         {
           name: "Catalogo Generale",
-          pdfUrl: "/pdf/catalogo-generale.pdf",
+          pdfUrl: "/public/pdf/catalogo-generale.pdf",
         },
         {
           name: "Cucine e Dintorni",
-          pdfUrl: "/pdf/catalogo-cucine.pdf",
+          pdfUrl: "/public/pdf/catalogo-cucine.pdf",
         },
         {
           name: "Design e Colore",
-          pdfUrl: "/pdf/design-colore.pdf",
+          pdfUrl: "/public/pdf/design-colore.pdf",
         },
         {
           name: "L'Officina dello Stile",
-          pdfUrl: "/pdf/officina-dello-stile.pdf",
+          pdfUrl: "/public/pdf/officina-dello-stile.pdf",
         },
       ],
     };
