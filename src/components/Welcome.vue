@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      pathImg: "/le-maniglie-website/img/img-welcome/maniglia-welcome.jpg",
+      pathImg: "/public/img/img-welcome/maniglia-welcome.jpg",
     };
   },
 };

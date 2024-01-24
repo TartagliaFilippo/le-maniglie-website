@@ -5,42 +5,42 @@ export default {
       sliderList: [
         {
           name: "1",
-          url: "/le-maniglie-website/img/slider/1.jpg",
+          url: "/public/img/slider/1.jpg",
         },
         {
           name: "2",
-          url: "/le-maniglie-website/img/slider/2.jpg",
+          url: "/public/img/slider/2.jpg",
         },
         {
           name: "3",
-          url: "/le-maniglie-website/img/slider/3.jpg",
+          url: "/public/img/slider/3.jpg",
         },
         {
           name: "4",
-          url: "/le-maniglie-website/img/slider/4.jpg",
+          url: "/public/img/slider/4.jpg",
         },
       ],
       activeSlide: 0,
       catalogueList: [
         {
           name: "Antique Iron",
-          pdfUrl: "/le-maniglie-website/pdf/antique-iron.pdf",
+          pdfUrl: "/public/pdf/antique-iron.pdf",
         },
         {
           name: "Arredo Giardino",
-          pdfUrl: "/le-maniglie-website/pdf/arredo-giardino.pdf",
+          pdfUrl: "/public/pdf/arredo-giardino.pdf",
         },
         {
           name: "Arte e Design",
-          pdfUrl: "/le-maniglie-website/pdf/arte-design.pdf",
+          pdfUrl: "/public/pdf/arte-design.pdf",
         },
         {
           name: "Catalogo Generale",
-          pdfUrl: "/le-maniglie-website/pdf/catalogo-generale.pdf",
+          pdfUrl: "/public/pdf/catalogo-generale.pdf",
         },
         {
           name: "Cucine e Dintorni",
-          pdfUrl: "/le-maniglie-website/pdf/catalogo-cucine.pdf",
+          pdfUrl: "/public/pdf/catalogo-cucine.pdf",
         },
         {
           name: "Design e Colore",
