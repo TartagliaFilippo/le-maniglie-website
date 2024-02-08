@@ -50,6 +50,10 @@ export default {
           name: "L'Officina dello Stile",
           pdfUrl: "pdf/officina-dello-stile.pdf",
         },
+        {
+          name: "Balconi Fioriti",
+          pdfUrl: "pdf/balconi-fioriti.pdf",
+        },
       ],
     };
   },
