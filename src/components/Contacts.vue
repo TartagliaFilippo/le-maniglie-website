@@ -12,37 +12,36 @@ export default {
 
   methods: {
     // gestione del form con web3forms
-    async submitForm() {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify({
-          access_key: WEB3FORMS_ACCESS_KEY,
-          name: this.name,
-          email: this.email,
-          message: this.message,
-        }),
-      });
-      const result = await response.json();
-      if (result.success) {
-        const sendMessageElement = document.querySelector(".send-message");
-        if (sendMessageElement) {
-          sendMessageElement.style.display = "block";
-
-          // timer messaggio inviato
-          setTimeout(() => {
-            sendMessageElement.style.display = "none";
-          }, 10000);
-        }
-        console.log(result);
-        this.name = "";
-        this.email = "";
-        this.message = "";
-      }
-    },
+    // async submitForm() {
+    //   const response = await fetch("https://api.web3forms.com/submit", {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //       Accept: "application/json",
+    //     },
+    //     body: JSON.stringify({
+    //       access_key: WEB3FORMS_ACCESS_KEY,
+    //       name: this.name,
+    //       email: this.email,
+    //       message: this.message,
+    //     }),
+    //   });
+    //   const result = await response.json();
+    //   if (result.success) {
+    //     const sendMessageElement = document.querySelector(".send-message");
+    //     if (sendMessageElement) {
+    //       sendMessageElement.style.display = "block";
+    //       // timer messaggio inviato
+    //       setTimeout(() => {
+    //         sendMessageElement.style.display = "none";
+    //       }, 10000);
+    //     }
+    //     console.log(result);
+    //     this.name = "";
+    //     this.email = "";
+    //     this.message = "";
+    //   }
+    // },
   },
 };
 </script>
