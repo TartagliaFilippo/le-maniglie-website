@@ -54,6 +54,10 @@ export default {
           name: "Balconi Fioriti",
           pdfUrl: "pdf/balconi-fioriti.pdf",
         },
+        {
+          name: "Catalogo Pomoli",
+          pdfUrl: "pdf/pomolo-web.pdf",
+        },
       ],
     };
   },
