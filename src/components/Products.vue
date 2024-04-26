@@ -56,7 +56,7 @@ export default {
         },
         {
           name: "Catalogo Pomoli",
-          pdfUrl: "pdf/pomolo-web.pdf",
+          pdfUrl: "pdf/pomoli-web.pdf",
         },
       ],
     };
